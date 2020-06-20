@@ -27,20 +27,20 @@
         android:text="Traducir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.767"
         app:layout_constraintStart_toEndOf="@+id/btnGrabarVideo"
         app:layout_constraintTop_toBottomOf="@+id/videoView"
         app:layout_constraintVertical_bias="1.0" />
 
     <VideoView
         android:id="@+id/videoView"
-        android:layout_width="409dp"
-        android:layout_height="503dp"
+        android:layout_width="329dp"
+        android:layout_height="334dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535" />
+        app:layout_constraintVertical_bias="0.347" />
 
     <TextView
         android:id="@+id/textView"
@@ -54,6 +54,19 @@
         app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtTraduccion"
+        android:layout_width="328dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="48dp"
+        android:text="Traducción"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView"
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
